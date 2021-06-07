@@ -1,3 +1,2 @@
 # 2021_LilyProject
-The goal of our code is to convert images of lily slices
-into masks of the petal cross-sections. Also, to take thickness measurements that are tangent to a line that bisects the petal cross section, and measure the distance from end to end. Eventually, this data will be compiled to a graph and compared to an equation in Mahadevan PNAS 2011 that models lily petals.
+The goal of our code is to convert images of lily slices into masks of the tepal (analogous to petal) cross-sections. Thickness measurements are then obtaind by finding the tangent line to each coordinate on the tepal skeleton, and drawing a line perpendicular to the tangent that intersects with the boundary of the tepal cross section. Finally, the distance from each intersection is measured to obtain thickness, repeated for each coordinate along a tepal skeleton. The thickness data is then graphed and compared to an equation in Mahadevan PNAS 2011 that models lily tepals.
