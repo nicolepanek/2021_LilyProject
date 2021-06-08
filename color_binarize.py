@@ -22,8 +22,8 @@ returns the new array, which is the binarized image.
 
 Parameters
 ----------
-im  : 2D int array
-      image
+im  : 2D by 3 int array
+      RGB color image 
 r: int
       integer between 0 and 255
 g: int
